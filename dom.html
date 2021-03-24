@@ -1,0 +1,105 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>shopping card</title>
+        <link
+            rel="icon"
+            href="https://denzertechnologies.com.dz/wp-content/uploads/2020/06/cropped-icon-panier-300x300.png"
+            type="image/png"
+        />
+        <link rel="stylesheet" href="dom.css" />
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div class="logo">
+                    <img src="image/logo.png" alt="logo panier d'achet">
+                </div>
+                <div class="total">
+                    <h2>Prix totale : <span id="total">0</span> TND</h2>
+                    <br>
+                    <h2>Quantity : <span id="quantity_total">0</span> </h2>
+                </div>
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">login</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="product" id="product_1">
+                <div class="header">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Arduino-uno-perspective-transparent.png/1200px-Arduino-uno-perspective-transparent.png" alt="Arduino-uno">
+                </div>
+                <div class="fouter">
+                    <div class="quantity">
+                        <button class="button minus" name="product_1"><img src="image/minus.png" alt="minus"></button>
+                        <h3 id="product_1_quantity">0</h3>
+                        <button class="button plus" name="product_1"><img src="image/plus.png" alt="plus"></button>
+                    </div>
+                    <h2><span id="product_1_prix">37</span>.000 TND</h2>
+                    <div class="evo">
+                        <button class="button delete" name="product_1"><img src="image/delet.png" alt="delet"></button>
+                        <button class="button enregistre" name="product_1"><img src="https://cdn3.iconfinder.com/data/icons/vote/16/star_bookmark-512.png" alt="favorit_no" id="product_1_enregistre"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product_2">
+                <div class="header">
+                    <img src="image/pic16f877a_development_board.png" alt="pic16f877a_development_board">
+                </div>
+                <div class="fouter">
+                    <div class="quantity">
+                        <button class="button minus" name="product_2"><img src="image/minus.png" alt="minus"></button>
+                        <h3 id="product_2_quantity">0</h3>
+                        <button class="button plus" name="product_2"><img src="image/plus.png" alt="plus"></button>
+                    </div>
+                    <h2><span id="product_2_prix">54</span>.000 TND</h2>
+                    <div class="evo">
+                        <button class="button delete" name="product_2"><img src="image/delet.png" alt="delet"></button>
+                        <button class="button enregistre" name="product_2"><img src="https://cdn3.iconfinder.com/data/icons/vote/16/star_bookmark-512.png" alt="favorit_no" id="product_2_enregistre"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product_3">
+                <div class="header">
+                    <img src="image/STM32F4.png" alt="STM32F4">
+                </div>
+                <div class="fouter">
+                    <div class="quantity">
+                        <button class="button minus" name="product_3"><img src="image/minus.png" alt="minus"></button>
+                        <h3 id="product_3_quantity">0</h3>
+                        <button class="button plus" name="product_3"><img src="image/plus.png" alt="plus"></button>
+                    </div>
+                    <h2><span id="product_3_prix">137</span>.000 TND</h2>
+                    <div class="evo">
+                        <button class="button delete" name="product_3"><img src="image/delet.png" alt="delet"></button>
+                        <button class="button enregistre" name="product_3"><img src="https://cdn3.iconfinder.com/data/icons/vote/16/star_bookmark-512.png" alt="favorit_no" id="product_3_enregistre"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product" id="product_4">
+                <div class="header">
+                    <img src="image/Raspberry Pi 3.png" alt="Raspberry_pi_4">
+                </div>
+                <div class="fouter">
+                    <div class="quantity">
+                        <button class="button minus" name="product_4"><img src="image/minus.png" alt="minus"></button>
+                        <h3 id="product_4_quantity">0</h3>
+                        <button class="button plus" name="product_4"><img src="image/plus.png" alt="plus"></button>
+                    </div>
+                    <h2><span id="product_4_prix">210</span>.000 TND</h2>
+                    <div class="evo">
+                        <button class="button delete" name="product_4"><img src="image/delet.png" alt="delet"></button>
+                        <button class="button enregistre" name="product_4"><img src="https://cdn3.iconfinder.com/data/icons/vote/16/star_bookmark-512.png" alt="favorit_no" id="product_4_enregistre"></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h5>created by HALIM </h5>
+        </footer>
+        <script src="dom.js"></script>
+    </body>
+</html>
